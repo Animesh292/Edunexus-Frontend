@@ -217,7 +217,7 @@ async function handleUpdateAdminInfo(editForm: {
   name: string;
   email: string;
   mobile: string | number;
-  exp: number;
+  exp: string | number;
   qualification: string;
   address: string;
 }) {
